@@ -1,7 +1,6 @@
 import argparse    
 import os 
 
-# create a dictionary with keys as the words and values as the anagrams
 
 def find_all_anagrams(filename):
     # original data from txt file
