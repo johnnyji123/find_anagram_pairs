@@ -8,7 +8,7 @@
 # Outcome:
 - Wrote a script that reorganizes a text file containing a list of words such that words that are anagrams of each other are grouped together on the same line, separated by spaces.
 - By running this script in the command line, the txt file updates; showing the anagrams on the same line.
-- The txt file re-organises by running the script python main.py list_of_words.txt
+- The txt file re-organises by running the script python main.py list_of_words.txt in the command line.
 
 # Features 
 - Reads a list of words from a specified text file.
