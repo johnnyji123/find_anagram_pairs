@@ -16,7 +16,7 @@ all of which contributes to less memory usage and thus more scalability.
 
 # 2) Using Dataframes - e.g. Pandas
 # Why Dataframes:
-- Dataframes like Pandas achieves scalability through several mechanisms, and one of them is its ability to 
+- Dataframes like Pandas achieves scalability through several ways, and one of them is its ability to 
 handle data step-by-step and focus on specific parts of the data when needed.
 - By loading and processing data in chunks or batches, pandas can efficiently work with datasets that are too large 
 to fit into memory all at once.
