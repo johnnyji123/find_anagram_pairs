@@ -25,15 +25,15 @@ def find_all_anagrams(filename):
                     anagram_lst = list(dict.fromkeys(anagram_lst))  
                     
         # List comprehension and split used to compare the anagram list and original data             
-        split_str = [each_word for word in anagram_lst for each_word in word.split()]
+        anagram_lst_split_str = [each_word for word in anagram_lst for each_word in word.split()]
         # List comprehnsion used to identify the words that are not an anagram
-        non_anagram_lst = [not_anagram for not_anagram in lst_of_words if not_anagram not in split_str]
+        non_anagram_lst = [word for word in lst_of_words if word not in anagram_lst_split_str]
         # Created a final lst to show both anagrams and non anagrams
         lst_with_anagram_paired = anagram_lst + non_anagram_lst
-           
+                   
     return lst_with_anagram_paired
-                        
-    file.close()                            
+                            
+    file.close()                                
             
 
 
