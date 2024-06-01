@@ -21,7 +21,7 @@ handle data step-by-step and focus on specific parts of the data when needed.
 - By loading and processing data in chunks or batches, pandas can efficiently work with datasets that are too large 
 to fit into memory all at once.
 - This incremental processing approach allows pandas to scale up to handle very large datasets.
-- Pandas has inbuilt data manipulation and analysis functions that are optimized for performance. 
+- Pandas has in-built data manipulation and analysis functions that are optimized for performance. 
 By using these functions, pandas avoid traditional looping and iterative approaches, which can be slower 
 and more memory-intensive.
 
